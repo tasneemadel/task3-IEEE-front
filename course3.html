@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+</head>
+<body>
+    <header>
+        <h1 style="color: rgb(212, 32, 41); text-align: center;" >task3</h1>
+    </header>
+
+    <main>
+        <center>
+            <section>
+            <table border="1" cellpadding="5px" style="text-align: center;">
+                <caption>Mid-Term To Do list</caption>
+                <br>
+                <thead>
+                    <tr>
+                        <th>day</th>
+                        <th>task</th>
+                        <th>time</th>
+                        <th>priorty</th>
+                        <th>photo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>saturday</td>
+                        <td>data structure</td>
+                        <td>7 hours</td>
+                        <td>1</td>
+                        <td><img src="../session3/Data-Structure-Algorithms.png" alt="data structure" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>sunday</td>
+                        <td>file system</td>
+                        <td>5 hours</td>
+                        <td>2</td>
+                        <td><img src="../session3/file system.jfif" alt="file system" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>monday</td>
+                        <td>discret mathematics</td>
+                        <td>3 hours</td>
+                        <td>3</td>
+                        <td><img src="../session3/discret mathematics.webp" alt="discret mathematics" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>tuesday</td>
+                        <td> system analysis and design</td>
+                        <td>3 hours</td>
+                        <td>4</td>
+                        <td><img src="../session3/system analysis and design.svg" alt="system analysis and design" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>wednesday</td>
+                        <td>operation research</td>
+                        <td>7 hours</td>
+                        <td>5</td>
+                        <td><img src="../session3/operation research.jpg" alt="operation research" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>thursday</td>
+                        <td>ecology</td>
+                        <td>2 hours</td>
+                        <td>6</td>
+                        <td><img src="../session3/ecology.jpg!w700wp" alt="ecology" width="100px"></td>
+                    </tr>
+                    <tr>
+                        <td>friday</td>
+                        <td rowspan="3"><video src="../session3/pio pio.mp4" controls muted width="400px"></video></td>
+                        <td><iframe src="https://www.wikipedia.org/" frameborder="0">wikipedia</iframe></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7"><audio controls src="وان ليس للانسان الا ما سعى.mpeg">quran</audio></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        </center>
+        <br>
+        <hr>
+        <section>
+                <form target="_blank">
+                    <legend>Registration page</legend>
+                    <br>
+                     <label for="Fname">FirstName</label>
+                    <input type="text" placeholder="enter your FirstName" id="Fname" name="FirstName" minlength="3" maxlength="10" autofocus required>
+                    <br>
+                    <br>
+                    <label for="Lname">LastName</label>
+                    <input type="text" placeholder="enter your LastName" id="Lname" name="LastName" minlength="3" maxlength="10" required>
+                    <br>
+                    <br>
+                    <label for="pass">password</label>
+                    <input type="password" placeholder="enter your password" id="pass" name="password" maxlength="12" required>
+                    <br>
+                    <br>
+                    <label for="password Again">password Again</label>
+                    <input type="password" placeholder="repeat your password" id="password Again" name="password2" maxlength="12" required>
+                    <br>
+                    <br>
+                    <label for="file">choose file</label>
+                    <input type="file" placeholder="please, choose file" id="file" multiple accept=".pdf,.png,.jpj" required>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">male</labe>
+                        <br>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">female</label>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <label for="faculty">Choose faculty</label>
+                    <input list="college" name="college">
+                    <datalist id="college">
+                        <option>Medicine</option>
+                        <option>Phtsical therapy</option>
+                        <option>Dentistry</option>
+                        <option>Computer Science</option>
+                        <option>Artificial Intelligence</option>
+                    </datalist>
+                    <br>
+                    <br>
+                    <fieldset>
+                        <legend>Interested</legend>
+                        <input type="checkbox" name="football" id="football">
+                        <label for="football">football</label>
+                        <br>
+                        <input type="checkbox" name="swimming" id="swimming">
+                        <label for="swimming">swimming</label>
+                        <br>
+                        <input type="checkbox" name="reading" id="reading">
+                        <label for="reading">reading</label>
+                        <br>
+                        <input type="checkbox" name="programming" id="programming">
+                        <label for="programming">programming</label>
+                    </fieldset>
+                    <br>
+                    <br>
+                    <label for="me" style="text-align: center;">About me</label>
+                    <textarea name="about me" id="me" placeholder="recognize yourself"></textarea>
+                    <br>
+                    <br>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" onclick="window.location.href='https://www.w3schools.com/html/html_entities.asp'">
+
+                    <label for="reset"></label>
+                    <input type="reset" id="reset">
+                </form>
+        </section>
+        <section style="text-align: center;">
+            <h2 style="color: rgb(18, 18, 117);">Thank tou for your Registration</h2>
+            <h3 style="color: rgb(97, 39, 151);">&lt;Thank&gt;you&lt;/Thank&gt;</h3>
+        </section>
+    </main>
+</body>
+</html>
